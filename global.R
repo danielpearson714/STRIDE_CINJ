@@ -1,6 +1,6 @@
 source("supporting/plots.R")
 source("supporting/tables.R")
-
+setRepositories(addURLs = c("https://rspm01.cinj.rutgers.edu/prod-cran/latest"))
 lapply(c("shinyWidgets", "bslib", "reactable", "tidyr", "data.table", "dplyr", "forcats", "viridis", "ggplot2", "shinydashboard", "shinydashboardPlus",
          "ggrepel", "sf", "tidycensus", "ggradar", "scales", "tidytext", "tmap", "leaflet", "shinyBS", "plotly", "fresh", "ggiraph", "readr", "stringr", "patchwork"), require, character.only = TRUE)
 
